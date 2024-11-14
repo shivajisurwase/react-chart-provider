@@ -1,15 +1,35 @@
 {
   "name": "react-chart-provider",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Built on JavaScript and TypeScript, all our charting libraries work with any back-end database or server stack.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Shivaji & Shyamal",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "highcharts": "^8.2.2",
+    "highcharts-react-official": "^3.2.1",
+    "react": "^18.3.1",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.3"
+  },
   "repository": {
     "type": "git",
     "url": "git remote add origin https://github.com/shivajisurwase/react-chart-provider.git"
-  }
+  },
+  "keywords": [
+    "react",
+    "line-chart",
+    "chart",
+    "lib",
+    "react-chart"
+  ]
 }

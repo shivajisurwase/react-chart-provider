@@ -1,6 +1,6 @@
 {
   "name": "react-chart-provider",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Built on JavaScript and TypeScript, all our charting libraries work with any back-end database or server stack.",
   "main": "dist/index.js",
   "module": "dist/index.js",
